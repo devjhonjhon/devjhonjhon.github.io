@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css">
+    <title>Monitoramento</title>
+</head>
+<body>
+<h1>Monitoramento de Salas - Bloco 3</h1>
+
+<h3>Legenda</h3>
+<div class="legend">
+    <div class="legenda-manu">
+        <i class="fas fa-wrench" style="color: yellow;" alt="Ícone de Manutenção"></i>
+        <span>Manutenção</span>
+    </div>
+    <div class="legenda-ocupada">
+        <i class="fas fa-lock" style="color: red;" alt="Ícone de Ocupado"></i>
+        <span>Ocupada</span>
+    </div>
+    <div class="legenda-livre">
+        <i class="fas fa-unlock" style="color: green;" alt="Ícone de Livre"></i>
+        <span>Livre</span>
+    </div>
+</div>
+
+<h2>Salas de Aula</h2>
+<div class="room" id="salaAula1">
+    <span class="room-name">Sala de Aula 1</span>
+    <div class="status" id="statusSalaAula1">
+        <i class="fas fa-wrench" alt="Ícone de Manutenção"></i>
+    </div>
+</div>
+
+<div class="room" id="salaAula2">
+    <span class="room-name">Sala de Aula 2</span>
+    <div class="status" id="statusSalaAula2">
+        <i class="fas fa-wrench" alt="Ícone de Manutenção"></i>
+    </div>
+</div>
+
+<div class="room" id="salaAula3">
+    <span class="room-name">Sala de Aula 3</span>
+    <div class="status" id="statusSalaAula3">
+        <i class="fas fa-unlock" alt="Ícone de Livre"></i>
+    </div>
+</div>
+
+<h2>Laboratórios</h2>
+<div class="room" id="infoLab1">
+    <span class="room-name">Laboratório de Informática 1</span>
+    <div class="status" id="statusInfoLab1">
+        <i class="fas fa-lock" alt="Ícone de Ocupado"></i>
+    </div>
+</div>
+
+<div class="room" id="labHW">
+    <span class="room-name">Laboratório de Hardware</span>
+    <div class="status" id="statusLabHW">
+        <i class="fas fa-unlock" alt="Ícone de Livre"></i>
+    </div>
+</div>
+
+<h2>Outras Salas</h2>
+<div class="room" id="salaProf">
+    <span class="room-name">Sala de Professores</span>
+    <div class="status" id="statusSalaProf">
+        <i class="fas fa-lock" alt="Ícone de Ocupado"></i>
+    </div>
+</div>
+
+<div class="room" id="coord">
+    <span class="room-name">Coordenação</span>
+    <div class="status" id="statusCoord">
+        <i class="fas fa-unlock" alt="Ícone de Livre"></i>
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
