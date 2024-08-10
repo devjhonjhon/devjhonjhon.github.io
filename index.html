@@ -26,6 +26,32 @@
     </div>
 </div>
 
+<div class="cStatus" id="cStatus">
+    <h3>Alterar Status</h3>
+    Selecione a sala
+    <br>
+    <select id="iptSala">
+        <option>Sala de Aula 1</option>
+        <option>Sala de Aula 2</option>
+        <option>Sala de Aula 3</option>
+        <option>Laboratório de Informática 1</option>
+        <option>Laboratório de Hardware</option>
+        <option>Sala dos Professores</option>
+        <option>Coordenação</option>
+    </select>
+    <br>
+    Selecione o status
+    <br>
+    <select id="iptStatus">
+        <option>Livre</option>
+        <option>Manutenção</option>
+        <option>Ocupada</option>
+    </select>
+    <br>
+    <br>
+    <button type="button" onclick="alterarStatus()" id="aStatus">Alterar Status</button>
+</div>
+
 <h2>Salas de Aula</h2>
 <div class="room" id="salaAula1">
     <span class="room-name">Sala de Aula 1</span>

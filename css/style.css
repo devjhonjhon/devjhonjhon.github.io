@@ -19,34 +19,20 @@ body {
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
 }
 
-#statusSalaAula1 {
-    background-color: yellow;
-}
-
-#statusSalaAula2 {
-    background-color: yellow;
-}
-
-#statusSalaAula3 {
+.livre {
     background-color: green;
 }
 
-#statusInfoLab1 {
+.ocupada {
     background-color: red;
 }
 
-#statusLabHW {
-    background-color: green;
+.manutencao {
+    background-color: yellow;
 }
-
-#statusSalaProf {
-    background-color: red;
-}
-
-#statusCoord {
-    background-color: green;
-}
-
